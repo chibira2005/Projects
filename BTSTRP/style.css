@@ -1,0 +1,22 @@
+.nav-item-border {
+    border-bottom: 2px solid transparent;
+
+}
+
+
+.nav-item-border:hover {
+    border-color: rgb(255, 255, 255);
+    
+}
+
+.custom-bg {
+    background-image: url("https://wallpapers.com/images/featured/4k-background-fd313fxzl511betu.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.icon2 {
+    border: 1px solid black !important;
+}
+
