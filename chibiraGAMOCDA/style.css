@@ -1,0 +1,21 @@
+
+
+.mamali {
+    background-image: url("./GAMOCDA/images/yellow\ background.png");
+    width: 100%;
+   
+}
+
+
+
+
+.kojori:hover {
+
+    background-image: url("./GAMOCDA/images/yellow\ background.png");    
+    
+}
+
+input::placeholder {
+    color: white !important;
+    font-style: italic;
+}
