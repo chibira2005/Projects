@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'kanit-regular';
+}
+
+@font-face {
+    font-family: 'kanit-regular';
+    src: url(/Fonts/Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'kanit-bold';
+    src: url(/Fonts/Kanit-Bold.ttf);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.navigation {
+    padding: 15px 35px;
+    margin-top: 15px;
+
+}
+
+.nav-desktop {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-desktop li:hover {
+    color: #777777;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+
+}
+
+.header-horizont {
+    width: 93%;
+    height: 3px;
+    background-color: rgb(204, 204, 204);
+    margin: 0 auto;
+
+}
+
+.header-logo img {
+    width: 300px;
+
+}
+
+.search {
+    display: flex;
+    height: 30px;
+    gap: 10px;
+    margin-top: 45px;
+    padding-right: 10px;
+}
+
+.search-resp {
+    display: none;
+}
+
+input {
+    background-color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.button1 {
+    background-color: #0099ff;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.header-container {
+    background-color: rgb(231, 231, 231);
+    padding: 5px 0;
+    display: flex;
+
+}
+
+.header-cont2 {
+    background-color: #f1f1f1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #0099ff;
+}
+
+.header-text {
+    width: 30%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-image {
+    background-image: url("../photos/txilamur.jpeg");
+    height: 500px;
+    width: 55%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header2 {
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.min-photos {
+    background-image: url(../Photos/txilamur.jpeg);
+    width: 45%;
+    height: 90px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.first-photos {
+    display: flex;
+}
+
+
+
+.calendar-header {
+    border-top: 1px solid grey;
+    width: 48%;
+    padding-top: 15px;
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar {
+    border-collapse: collapse;
+    width: 45%;
+    margin-top: 10px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+
+.calendar td {
+    border: 1px solid salmon;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.satauri {
+    color: #666666;
+
+}
+
+.satauri td {
+    padding: 5px;
+    font-size: .9rem;
+
+}
+
+.photo-satauri {
+    width: 50%;
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.min-photos-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.photos-header {
+    padding-top: 5px;
+}
+
+.photos-des {
+    width: 100%;
+    text-align: center;
+    color: #666666;
+    padding-top: 2px;
+}
+
+
+
+.video-header {
+    background-color: #f1f1f1;
+    padding: 45px 20px;
+}
+
+.video-header video {
+    width: 100%;
+}
+
+.footer {
+    background-color: #222222;
+    padding: 20px;
+
+}
+
+.footer-text {
+    color: #666666;
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+    text-align: center;
+
+}
+
+.footer-text2 {
+    color: #666666;
+}
+
+
+.mobile-menu {
+    font-size: 1.5rem;
+    color: black;
+    display: none;
+}
+
+.dzieba {
+    display: flex;
+    height: 30px;
+    gap: 10px;
+    margin-top: 45px;
+
+}
+
+
+@media screen and (max-width:480px) {
+
+
+    .container {
+        width: 100%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .header-horizont {
+        display: none;
+    }
+
+    .header {
+        padding-right: 25px;
+        align-items: center;
+    }
+
+    .header,
+    .header-container,
+    .header2,
+    .video-header,
+    .footer,
+    .header-image,
+    .header-text {
+        width: 100%;
+    }
+
+    .header2 {
+        flex-direction: column;
+    }
+
+    .photo-satauri {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .calendar-header {
+        width: 100%;
+    }
+
+    .mobile-menu {
+        font-size: 3rem;
+        color: #05529f;
+        display: block;
+    }
+
+    .header-cont2 {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search-resp {
+        display: block;
+        text-align: end;
+        padding: 1px 25px 30px 2px;
+    }
+
+    .first-photos {
+        flex-direction: column;
+        width: 65%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+}
