@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-image: url(BackIMG.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    user-select: none;
+}
+
+.header-logo {
+    background-image: url(Logo.png);
+    background-repeat: no-repeat;
+    margin: 40px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header1 {
+    color: white;
+    font-size: 3.8rem;
+    font-weight: bold;
+    padding-top: 90px;
+    font-family: "Oswald", sans-serif;
+}
+
+.header1-description {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    padding-top: 10px;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.header2 {
+    color: white;
+    font-size: 2rem;
+    font-family: "Oswald", sans-serif;
+    width: 100%;
+    padding: 90px 15px;
+    font-weight: bold;
+}
+
+.header2-description {
+    font-size: 0.9rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+.container2 {
+    width: 100%;
+}
+
+.location-icon {
+    font-size: 21px;
+    color: #fec708;
+    padding-top: 22px;
+}
+
+.location-header {
+    display: flex;
+    padding-top: 25px;
+}
+
+.location-header i {
+    font-size: 20px;
+    padding: 13px 0px;
+    color: #fec708;
+}
+
+.location {
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+
+.select {
+    height: 200px;
+}
+
+.location-input {
+    margin-top: -10px;
+}
+
+.location-input select {
+    width: 275px;
+    height: 40px;
+    border-style: none;
+}
+
+
+.location-description {
+    font-size: 0.9rem;
+    color: #fec708;
+    font-family: "Noto Sans", sans-serif;
+    padding: 5px 30px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 12px;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.input-group {
+    height: 50px;
+    font-size: 1rem;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-container-description {
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    width: 60%;
+    font-size: 0.8rem;
+    padding-top: 13px;
+}
+
+.Terms {
+    color: #fec708;
+}
+
+.button-head {
+    margin: 35px 135px;
+}
+
+.button1 {
+    background-color: #fec708;
+    border-style: none;
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button1:hover {
+    opacity: 0.8;
+}
+
+.header-end {
+    width: 100%;
+    display: flex;
+}
+
+.header-end-items {
+    padding: 60px 250px;
+}
+
+.header-end-text {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 55px;
+}
+
+.subscribe label {
+    color: rgb(59, 59, 59);
+}
+
+.input-group2 {
+    display: flex;
+    padding-top: 5px;
+    border-style: none;
+}
+
+select {
+    outline: none;
+}
+
+.button2 {
+    width: 45px;
+    height: 40px;
+    background-color: #fec708;
+    border-style: none;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+}
+
+.button2:hover {
+    opacity: 0.8;
+}
+
+.button2 i {
+    font-size: 25px;
+}
+
+.input-group2 input {
+    border: 1px solid black;
+    width: 250px;
+}
+
+.follow {
+    padding: 60px 300px;
+    font-family: "Noto Sans", sans-serif;
+    color: #31383d;
+    font-size: .9rem;
+}
+
+.icons {
+    display: flex;
+    gap: 19px;
+    font-size: 25px;
+    padding-top: 12px;
+    color: #748796;
+}
+
+.icons a {
+    color: #748796;
+}
+
+.navigation {
+    height: 300px;
+    background-color: #243746;
+    display: flex;
+}
+
+.company {
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    padding: 80px 230px;
+    font-size: .9rem;
+}
+
+.company ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.company-header {
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 8px;
+
+}
+
+.class {
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: .9rem;
+}
+
+.class ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.class-header {
+    font-size: 1.7rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 8px;
+}
+
+.find {
+    color: white;
+    padding: 80px 175px;
+    font-size: .9rem;
+}
+
+.find ul {
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.find-header {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.default-li {
+    color: #d9dcd6;
+}
+
+.oppor {
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: .9rem;
+}
+
+.oppor ul {
+    list-style: none;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.support {
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: .9rem;
+}
+
+.support ul {
+    list-style: none;
+    padding: 80px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.navigation-logo {
+    background-image: url(allyant.svg);
+    width: 156px;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+.horizontal {
+    height: 1px;
+    background-color: #d9dcd6;
+    width: 100%;
+}
+
+.navigation2 {
+    height: 100px;
+    background-color: #243746;
+    display: flex;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.end1 {
+    color: white;
+    padding: 30px 230px;
+    font-size: .9rem;
+}
+
+.end1 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.end2 {
+    color: white;
+    font-size: .9rem;
+}
+
+.end2 ul {
+    list-style: none;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.end3 {
+    color: #d9dcd6;
+    font-size: .9rem;
+    padding: 30px 155px;
+}
+
+.end4 {
+    color: #d9dcd6;
+    font-size: .9rem;
+    padding-top: 30px;
+}
